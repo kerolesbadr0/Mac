@@ -1,0 +1,33 @@
+body {
+    background-color:#AAA ;
+}
+.holder {
+    margin: 50px auto;
+    text-align: center;
+    width: 880px;
+    height: 714px;
+    background-image: url(Imac-PNG-Transparent.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.holder .preview {
+    position: absolute;
+    top: 35px;
+    overflow: hidden;
+    left: 37px;
+    width: 810px;
+    height: 462px;
+}
+.holder .preview img {
+    margin-top: 0;
+    max-width: 880px;
+    transition:  20s ease-in-out;
+    -webkit-transition:  20s ease-in-out;
+    -moz-transition:  20s ease-in-out;
+    -ms-transition:  20s ease-in-out;
+    -o-transition:  20s ease-in-out;
+}
+
+.holder .preview:hover img {
+    margin-top: -7310px;
+}
